@@ -1,3 +1,56 @@
 // Place all the styles related to the Staticpages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+    margin: 0px;
+}
+.skyline {
+   
+    background: url(atl2.jpg) no-repeat center center fixed; 
+    background-size: 1500px 700px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+    margin: 0px;
+    height: 570px;
+    
+
+    
+}
+
+
+#mainf {
+    width: 600px;
+    height: 38px;
+    border: none;
+    border-radius: .3em;
+    
+}
+
+
+ input:focus {
+     outline: none;
+  border-bottom: 2px solid red;
+}
+
+.where {
+    border: none;
+    width: 400px;
+    height: 38px;
+    border-radius: .2em;
+    padding-left: 10px;
+    -webkit-appearance: none
+}
+
+
+
+.mainm{
+   text-align: center;
+   padding-top: 200px;
+   padding-bottom: 200px;
+
+    
+}
